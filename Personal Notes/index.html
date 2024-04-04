@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STDMAP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="icon" href=" ">
+</head>
+<body>
+    <div class="navbar">
+        <h1>STDMAP</h1>
+    </div>
+
+    <div class="container">
+        <div class="map-container">
+        <h2>Roadmap of MERN-developer</h2><br>
+        <h3>Front-end</h3>
+        <p>Html</p>
+        <P>Css</P>
+        <P>Bootstrap(css framework)</P>
+        <P>js</P>
+        <P>React js(js framework)</P>
+        <h3>Back-end</h3>
+        <P>Node js</P>
+        <P>Express js</P>
+        <p>Mango DB</p>
+        <h3>Version Control</h3>
+        <p>GIT</p><br>
+        <button onclick="delet(event)">Completed</button>
+    </div>
+    </div>
+    
+    <div class="todo">
+    </div>
+
+    <div class="popup-layout"></div>
+
+    <div class="popup-box">
+        <h2>Add-Title</h2>
+        <form>
+            <input type="text" placeholder="title" id="title-input"><br>
+            <input type="text" placeholder="sub-title" id="sub-title-input"><br><br>
+            <textarea placeholder="link" id="link-input"></textarea>
+            <br><br>
+            <button id="add-input">Add</button>
+            <button id="cancel-input">Cancel</button>
+        </form><br>
+    </div>
+
+    <div>
+        <button class="add-button" id="add-note">+</button>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
